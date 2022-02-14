@@ -1,0 +1,73 @@
+<html>
+<head>
+<style>
+.div{
+  width:400px;
+  height:200px;
+  background:linear-gradient(to right,
+orange,black);
+  color:white;
+  font-family:cursive;
+  margin-bottom:60px;
+  display:flex;
+  align-items:center;
+   justify-content:center;
+   margin-left:40%;
+   transition:all 0.5s ease;
+}
+.anim1:hover{
+  box-shadow:0 0 0 30px inset black;
+  opacity:1;
+  transform:scale(2 , 2);
+  border-radius:200px;
+  .anim4
+  }
+  .anim1{
+  opacity:0.5;
+  }
+  .anim3:hover{transform:scale(2 , 2);}
+  
+  .anim2{
+  opacity:0.5;
+  }
+  .anim2:hover{opacity:1;}
+ .anim4:hover {border-radius:200px;}
+ .anim5:hover{transform:rotateZ(45deg)}
+ .pr6{
+ 
+ animation-name:animka;
+ animation-duration:3s;
+ animation-iteration-count:infinite;
+ animation-timing-function:linear;
+ animatio-direction:alternate;
+ animatio-fill-mode:alternate;
+ }
+ @keyframes animka{
+  0%{
+  transform:rotateZ(0deg) scale(2 , 2);
+  
+  }
+  50%{
+  transform:rotateZ(90deg) scale(2 , 2);
+  
+  }
+  100%{
+  transform:rotateZ(-90deg) scale(2 , 2);
+  
+  }
+ 
+ 
+ 
+ 
+ }
+</style>
+</head>
+<body>
+<div class= "anim1 div">приклад1</div>
+<div class= "anim2 div">приклад2</div>
+<div class= "anim3 div">приклад3</div>
+<div class= "anim4 div">приклад4</div>
+<div class= "anim5 div">приклад5</div>
+<div class= "anim6 div"> <div class="pr6"> приклад6 </div></div>
+</body>
+</html> 
